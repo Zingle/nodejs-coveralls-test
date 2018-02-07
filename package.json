@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-coveralls-test",
+  "version": "0.0.1",
+  "description": "Node.js test project to test coveralls",
+  "main": "functions.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc --all --reporter=html mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zingle/nodejs-coveralls-test.git"
+  },
+  "author": "Richard Remer <reanjr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zingle/nodejs-coveralls-test/issues"
+  },
+  "homepage": "https://github.com/Zingle/nodejs-coveralls-test#readme"
+}
