@@ -1,6 +1,6 @@
 {
   "name": "nodejs-coveralls-test",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node.js test project to test coveralls",
   "main": "functions.js",
   "directories": {
