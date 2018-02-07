@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "mocha",
-    "coverage": "nyc --all --reporter=html mocha",
-    "coveralls": "nyc --all --reporter=text-lcov mocha | coveralls"
+    "coverage": "./node_modules/nyc/bin/nyc.js --all --reporter=html mocha",
+    "coveralls": "./node_modules/nyc/bin/nyc.js --all --reporter=text-lcov mocha | coveralls"
   },
   "repository": {
     "type": "git",
