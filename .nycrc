@@ -1,0 +1,9 @@
+{
+    "include": [
+        "*.js",
+        "**/*.js"
+    ],
+    "exclude": [
+        "**/test-*.js"
+    ]
+}
